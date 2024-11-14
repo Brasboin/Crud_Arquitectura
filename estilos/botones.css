@@ -1,0 +1,149 @@
+.botones {
+    padding: 50px 20px;
+    background-color: #ededed;
+    margin: calc(25% + 220px);
+    margin-top: 70px;
+    padding-top: 28px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: -2px 3px 5px rgb(25, 23, 39), 3px -2px 5px rgb(25, 23, 39);
+}
+
+button {
+    border-radius: 5px;
+    background-color: #e5e9e9;
+    padding: 8px;
+    border: solid 0.2px;
+    height: 50%;
+    width: 90px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #bec5c4;
+    box-shadow: 1px -1px 4px #b9bebd, -1px 1px 4px #c6cccb, 0px 0px 4px #d2d4d4;
+    transition-delay: 0.14s;
+}
+
+.cerrar {
+    float: right;
+    margin: 3px;
+}
+
+.cerrar:hover {
+    background: #ff0019;
+    box-shadow: 1px -1px 4px #dc3545, -1px 1px 4px #dc3545, 0px 0px 4px #dc3545;
+    transition-delay: 0.14s;
+}
+
+.opci {
+    margin: 8px 8px;
+    font-size: 18px;
+    width: 500px;
+}
+
+.btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-outline-success:focus,
+.btn-outline-success.focus {
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+}
+
+.btn-outline-success.disabled,
+.btn-outline-success:disabled {
+    color: #28a745;
+    background-color: transparent;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled):active,
+.btn-outline-success:not(:disabled):not(.disabled).active,
+.show>.btn-outline-success.dropdown-toggle {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.eliminar {
+    color: #dc3545;
+    border-color: #dc3545;
+    margin: 2px;
+}
+
+.eliminar:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.eliminar.focus,
+.eliminar:focus {
+    box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
+}
+
+.eliminar.disabled,
+.eliminar:disabled {
+    color: #bd2130;
+    background-color: transparent;
+}
+
+.eliminar:not(:disabled):not(.disabled):active,
+.eliminar:not(:disabled):not(.disabled).active,
+.show>.eliminar.dropdown-toggle {
+    color: #fff;
+    background-color: #bd2130;
+    border-color: #b21f2d;
+}
+
+i {
+    font-size: 25px;
+}
+
+.icon {
+    margin: 3px;
+    width: 50px;
+    background-color: #000;
+    color: #fff;
+    float: left;
+}
+
+.icon:hover {
+    color: black;
+}
+
+.myy {
+    box-shadow: inset 0px 10px 14px -7px #a4e271;
+    background: linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+    background-color: #89c403;
+    border-radius: 8px;
+    border: 1px solid #74b807;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #528009;
+}
+
+.myy:hover {
+    background: linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+    background-color: #77a809;
+}
+
+.myy:active {
+    position: relative;
+    top: 1px;
+}

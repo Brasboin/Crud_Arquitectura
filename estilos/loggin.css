@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: arial;
+    background-color: #fff;
+   
+}
+.banerSuperior{
+    width: 100%;
+    height: 80px;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    display: block;
+    margin-bottom: 5px;
+}
+header{
+    background-color: #000;
+    text-align: center;
+    display: block;
+    margin-top: 10;
+}
+.imagen1{
+   width: 230px;
+   height: 70px;
+   float: left;
+}
+.saludo{
+    color: #000;
+    font-size:x-large;
+    text-shadow: white 0.1em 0.1em 0.1em;
+    text-align: center;
+    padding: 16px;
+    border-bottom:#01acc6 solid 1px,30px;
+    border-bottom-left-radius: 18px;
+    border-bottom-style:solid;
+    padding-bottom: 5px;
+    border-bottom-right-radius: 6px;
+    margin: 0px 120px;
+    border-top:#01acc6 solid 1px,30px;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 6px;
+    border-top-style:solid;
+    padding-top: 5px;
+    
+ 
+    
+}
+
+.formula{
+    
+    width: 380px;
+    text-align: center;
+    
+    height: 400px;
+    background: rgb(233, 231, 231);
+    color: #000;
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 60px 10px;
+    border: solid 2px;
+    border-color: rgb(4, 3, 46);
+    box-shadow: -2px 3px 5px rgb(25, 23, 39),3px 3px 5px rgb(25, 23, 39);
+}
+
+.aformula{
+    
+    width: 380px;
+    text-align: center;
+    
+    height: 500px;
+    margin-bottom: 12px;
+    background: rgb(233, 231, 231);
+    color: #000;
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 60px 10px;
+    border: solid 2px;
+    border-color: rgb(4, 3, 46);
+    box-shadow: -2px 3px 5px rgb(25, 23, 39),3px 3px 5px rgb(25, 23, 39);
+}
+
+
+
+input[type='text']{
+    width: 100%;
+    background-color: #f7f5f5;
+    height: 30px;
+    text-align: center;
+}
+input[type='password']{
+    width: 100%;
+    background-color: #f7f5f5;
+    height: 30px;
+    text-align: center;
+   
+}
+input[type='email']{
+    width: 100%;
+    background-color: #f7f5f5;
+    height: 30px;
+    text-align: center;
+   
+}
+input[type='number']{
+    width: 100%;
+    background-color: #f7f5f5;
+    height: 30px;
+    text-align: center;
+   
+}
+input[type='date']{
+    width: 100%;
+    background-color: #f7f5f5;
+    height: 30px;
+    text-align: center;
+   
+}
+input[type='submit']{
+    margin-top: 7px;
+    width: 100%;
+   
+   
+}
+
+
+
+form{
+    margin: 0;
+    padding: 5px;
+    text-align:center;
+    font-size: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.botonLoggin {
+	color: #000;
+	cursor: pointer;
+	display: block;
+	position: relative;
+	border: 2px solid #000;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    padding: 5px;
+}
+.botonLoggin:hover {
+	color: #000 ;
+	background-color: #198A10;
+	text-shadow: ntwo;
+}
+.botonLoggin:hover:before {
+	top: 0%;
+	bottom: auto;
+	height: 100%;
+}
+.linea{
+    font-size: 25px;
+    color:#000;
+    text-align: left;
+    margin-bottom: 6px;
+    
+} 
+
+.ok{
+    border-radius: 3px;
+    text-align: center;
+    width: 93%;
+    padding: 12px;
+    background-color: #1e6;
+    color: #fff;
+    box-shadow: 3px 2px 5px rgb(25, 23, 39);
+}
+.bad{
+    border-radius: 3px;
+    text-align: center;
+    width: 93%;
+    padding: 12px;
+    background-color: red;
+    color: #fff;
+    box-shadow: 3px 2px 5px rgb(25, 23, 39);
+}
+.badtwo{
+    margin-left: 10%;
+    margin-right: 5%;
+    border-radius: 3px;
+    text-align: center;
+    width: 80%;
+    padding: 12px;
+    background-color: red;
+    color: #fff;
+    box-shadow: 3px 2px 5px rgb(25, 23, 39);
+}
+i{
+    padding: 2px;
+ 
+}

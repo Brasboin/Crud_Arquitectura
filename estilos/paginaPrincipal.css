@@ -1,0 +1,83 @@
+.opcionesforma{
+
+    
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin-left: 23%;
+    margin-right: 23%;
+    margin-top: 100px;
+    
+}
+
+
+.individual{
+    margin: 0 auto;
+    width: 90%;
+    margin-left: 4px;
+}
+
+.botonesdos {
+	color: #000;
+	cursor: pointer;
+	margin-top: 380px;
+    margin-bottom: 80px;
+    width: 100%;
+	background-color: rgb(128, 128, 128,0.8);
+	border: 2px solid rgb(153, 153, 153);
+	transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    
+}
+.botonesdos:hover {
+	color: #fff !important;
+	background-color: #2e7c03;
+	text-shadow: ntwo;
+}
+.botonesdos:hover:before {
+	top: 0%;
+	bottom: auto;
+	height: 100%;
+}
+
+
+
+
+
+/* #_uno{
+   
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    background-image: url(../anexos/uno\,1.jpg);
+    background-size:cover;
+    
+}
+#_dos{
+    background-image: url(../anexos/dos\,1.jpg);
+    background-size:cover;
+}
+#_dosnuevo{
+    background-image: url(../anexos/dos\,1.jpg);
+    background-size:cover;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+#_tres{
+    background-image: url(../anexos/tres\,3.jpg);
+    background-size:cover;
+}
+#_cuatro{
+    
+    background-image: url(../anexos/cuatro\,1.jpg);
+    background-size:cover;
+}
+#_cinco{
+    background-image: url(../anexos/quinto\,1.jpg);
+    background-size:cover;
+} 
+#_seis{
+    background-image: url(../anexos/sexto\,1.jpg);
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    background-size:cover;
+   
+} */
